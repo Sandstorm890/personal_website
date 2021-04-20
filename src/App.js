@@ -1,12 +1,11 @@
 import './App.css';
 import Header from './components/Header'
-import Body from './components/Body'
+import Body from './containers/BodyContainer'
 
 function App() {
   return (
     <div className="App">
       <header className="">
-        <Header />
         <Body />
       </header>
     </div>
